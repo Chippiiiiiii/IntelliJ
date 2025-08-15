@@ -8,7 +8,7 @@ public class Swap {
         char c;
         for (int i = 0; i < a.length(); i++) {
             c = a.charAt(i);
-            b = c + b;
+            b=c+b;
         }
         System.out.println(b);
     }
