@@ -19,11 +19,11 @@ public class Email {
         String[] parts = email.split("@");
         String username = parts[0];
         String domain = parts[1];
-        if (username.length() != 25) {
-            System.out.println("Invalid email: username must be exactly 25 characters");
+        if (username.length() >25) {
+            System.out.println("Invalid email: username must be less than 25 characters");
             return;
         }
-        if (!username.matches("[a-zA-Z0-9_\\-+]+")) {
+        if (!username.matches("[a-zA-Z0-9_\\-+]{1,25}")) {
             System.out.println("Invalid email: username contains invalid characters");
             return;
         }
