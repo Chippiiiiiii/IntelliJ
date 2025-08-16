@@ -2,6 +2,7 @@ import java.util.*;
 public class Compare {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        System.out.println("Tharun P 2024503579");
         System.out.println("Enter an string:-");
         String a = input.nextLine();
         System.out.println("Enter an String:-");

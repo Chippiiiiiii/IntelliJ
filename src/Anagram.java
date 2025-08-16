@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Anagram {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Tharun P 2024503579");
         System.out.print("Enter first string: ");
         String str1 = sc.nextLine();
         System.out.print("Enter second string: ");

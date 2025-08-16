@@ -3,6 +3,8 @@ class Compress {
     public static void main(String[] args)
     {
         Scanner input=new Scanner(System.in);
+        System.out.println("Tharun P 2024503579");
+        System.out.println("Enter an String:");
         String a= input.nextLine();
         char currentChar = a.charAt(0);
         int count = 1;
@@ -21,7 +23,7 @@ class Compress {
         if (compressed.length() < a.length()) {
             System.out.println("Compressed: " + compressed);
         } else {
-            System.out.println("Compressed: " + input);
+            System.out.println("Compressed: " + a);
         }
     }
 }

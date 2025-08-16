@@ -3,6 +3,7 @@ public class Occurance {
     public static void main(String[] args)
     {
         Scanner input=new Scanner(System.in);
+        System.out.println("Tharun P 2024503579");
         System.out.println("enter an string:");
         String a=input.nextLine();
         a=a.toLowerCase();
